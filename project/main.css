@@ -16,7 +16,7 @@ body {
 
 header {
 	background-color: #011946;
-	padding: 10px 20px;
+	
 }
 
 footer, main, nav {
@@ -36,7 +36,7 @@ nav, footer {
 }
 
 #mainLogo {
-	height: 80px;
+	height: 200px;
 }
 
 #mainContent {
