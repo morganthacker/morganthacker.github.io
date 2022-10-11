@@ -18,6 +18,9 @@ header {
 	background-color: #011946;
 	
 }
+#mainLogo {
+	height: 80px;
+}
 
 footer, main, nav {
 	padding: 20px;
