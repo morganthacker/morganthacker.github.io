@@ -34,10 +34,13 @@ nav, footer {
 	top: 0;
 	left: 0;
 	z-index: 100;
+	
 }
 
 #mainLogo {
-	height: 200px;
+	height: 90px;
+	padding-top: .25em;
+	padding-left: 1em;
 }
 
 #mainContent {
