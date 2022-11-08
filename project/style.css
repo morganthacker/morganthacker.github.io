@@ -468,11 +468,11 @@ a:hover {
   }
   
   #header .logo a {
-    color: #fff;
+    color: rgb(224, 159, 105);
   }
   
   #header .logo img {
-    max-height: 40px;
+    max-height: 100px;
   }
   
   #header.header-scrolled {
@@ -510,7 +510,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
+    color: #EABCAF;
     font-size: 16px;
     font-weight: 600;
     padding: 0;
@@ -536,7 +536,7 @@ a:hover {
     bottom: -6px;
     left: 0;
     width: 0;
-    background-color: #fff;
+    background-color:#EABCAF;
     visibility: hidden;
     transition: all 0.3s ease-in-out 0s;
   }
@@ -552,7 +552,7 @@ a:hover {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #663A2E;
   }
   
   .navbar .dropdown ul {
@@ -578,7 +578,7 @@ a:hover {
     padding: 10px 20px;
     font-size: 14px;
     text-transform: none;
-    color: #4e4e4e;
+    color: #66524D;
   }
   
   .navbar .dropdown ul a i {
@@ -623,7 +623,7 @@ a:hover {
 /* Mobile Nav */
 
 .mobile-nav-toggle {
-    color: #fff;
+    color: #E68468;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -667,7 +667,7 @@ a:hover {
     bottom: 15px;
     left: 15px;
     padding: 10px 0;
-    background-color: #fff;
+    background-color: #E68468;
     overflow-y: auto;
     transition: 0.3s;
   }
@@ -692,7 +692,7 @@ a:hover {
   .navbar-mobile a:hover,
   .navbar-mobile .active,
   .navbar-mobile li:hover>a {
-    color: #0078ff;
+    color: #E68468;
   }
   
   .navbar-mobile .getstarted,
@@ -873,7 +873,7 @@ a:hover {
     transition: all 500ms ease;
     color: #fff;
     background-color: #a37c57;
-    box-shadow: 0 0 0 10px #cde1f8;
+    box-shadow: 0 0 0 10px #EACBB9;
   }
   
   .service-box .service-ico {
@@ -897,7 +897,7 @@ a:hover {
     font-size: 1.4rem;
     text-transform: uppercase;
     text-align: center;
-    padding: 0.4rem 0;
+    padding:  0;
   }
   
   .service-box .s-description {
@@ -1080,7 +1080,7 @@ a:hover {
   .php-email-form .sent-message {
     display: none;
     color: #fff;
-    background: #18d26e;
+    background: #EACBB9;
     text-align: center;
     padding: 15px;
     font-weight: 600;
@@ -1100,7 +1100,7 @@ a:hover {
     width: 24px;
     height: 24px;
     margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
+    border: 3px solid #EACBB9;
     border-top-color: #eee;
     -webkit-animation: animate-loading 1s linear infinite;
     animation: animate-loading 1s linear infinite;
@@ -1168,14 +1168,3 @@ footer {
     background: #a37c57;
   }
   
-  footer .copyright {
-    margin-bottom: 0.3rem;
-  }
-  
-  footer .credits {
-    margin-bottom: 0;
-  }
-  
-  footer .credits a {
-    color: #fff;
-  }
