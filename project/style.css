@@ -13,7 +13,9 @@ h5,
 h6 {
     color: #1E1E1E
 }
-
+h3 {
+  text-align: center;
+}
 a {
     color: #1E1E1E;
     text-decoration: none;
@@ -158,6 +160,7 @@ a:hover {
 .subtitle-a {
     text-decoration: none;
     color: #4e4e4e;
+    text-align: center;
 }
 
 .line-mf {
