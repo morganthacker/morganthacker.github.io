@@ -25,7 +25,7 @@ footer, main, nav {
 }
 
 nav, footer {
-	background-color: #c2d5db;
+	background-color: #e4cbb4;
 }
 
 #pageHeader {
@@ -78,11 +78,11 @@ nav, footer {
 }
 
 #mainNav .current a {
-	background-color: #d4ebf2;
+	background-color: #ffffff;
 	padding: 14px 10px;
 	color: #885c38;
 	border: 6px solid transparent;
-	border-bottom-color: #885c38;
+	border-bottom-color: #8f6b4e;
 }
 
 h1 {
@@ -91,11 +91,11 @@ h1 {
 }
 
 h2 {
-	color: #885c38;
+	color: #a88467;
 }
 
 footer {
-	border-top: 2px solid #885c38;
+	border-top: 2px solid #b4845d;
 	text-align: left;
 }
 
