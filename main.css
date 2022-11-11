@@ -15,7 +15,7 @@ body {
 /* Styles */
 
 header {
-	background-color: #885c38;
+	background-color: #0c0a09;
 	height: 100px;
 }
 
@@ -25,7 +25,7 @@ footer, main, nav {
 }
 
 nav, footer {
-	background-color: #e4cbb4;
+	background-color: #383533;
 }
 
 #pageHeader {
@@ -53,7 +53,7 @@ nav, footer {
 
 #mainNav {
 	grid-area: nav;
-	border-bottom: 2px solid #885c38;
+	border-bottom: 2px solid #5e544c;
 }
 
 #mainNav ul {
@@ -70,7 +70,7 @@ nav, footer {
 #mainNav ul li a {
 	padding: 20px 10px;
 	text-decoration: none;
-	color: #885c38;
+	color: #928981;
 }
 
 #mainNav ul li a:hover {
@@ -80,9 +80,9 @@ nav, footer {
 #mainNav .current a {
 	background-color: #ffffff;
 	padding: 14px 10px;
-	color: #885c38;
+	color: #8a7a6d;
 	border: 6px solid transparent;
-	border-bottom-color: #8f6b4e;
+	border-bottom-color: #887b71;
 }
 
 h1 {
@@ -91,11 +91,11 @@ h1 {
 }
 
 h2 {
-	color: #a88467;
+	color: #4b4846;
 }
 
 footer {
-	border-top: 2px solid #b4845d;
+	border-top: 2px solid #928f8c;
 	text-align: left;
 }
 
@@ -113,7 +113,7 @@ footer li {
 
 footer li a {
 	text-decoration: none;
-	color: #885c38;
+	color: #9b9691;
 }
 
 footer li a:visited {
