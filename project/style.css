@@ -1054,6 +1054,9 @@ a:hover {
     padding: 0;
   }
 
+.img-fluid {
+  max-width: 100%;
+}
 /* Contact */
 
 .footer-paralax {
