@@ -1055,7 +1055,9 @@ a:hover {
   }
 
 .img-fluid {
+  border-style: none;
   max-width: 100%;
+  height: auto;
 }
 /* Contact */
 
