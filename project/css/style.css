@@ -385,7 +385,7 @@ a:hover {
     animation: animate-preloader 1s linear infinite;
 } */
 
-/* @-webkit-keyframes animate-preloader {
+@-webkit-keyframes animate-preloader {
     0% {
       transform: rotate(0deg);
     }
