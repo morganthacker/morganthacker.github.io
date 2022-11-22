@@ -164,6 +164,13 @@ img {
     display: none;
 }
 
+#herocouch {
+    height: 300px;
+    background-image: url(images/herocouch.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 footer {
     background-color: #d2b48c;
     font-size: .60em ;
@@ -196,6 +203,21 @@ form {
 
 input, textarea {
     margin-bottom: .5em;
+}
+
+.item {
+    background-color: #FAF9F7;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
+}
+.item img {
+    float: right;
+}
+
+.current {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
 }
 
 

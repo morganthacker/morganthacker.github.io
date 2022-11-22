@@ -7,20 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Morgan &mdash; JavaJam Coffee House</title>
     <meta name="description" content="JavaJam Coffee Bar Case Study">
-    <meta name="author" content="Morgan Thacker">
+    <meta name="author" content="Your Name">
     <meta name="keywords" content="Homework, USU, Data Analytics and Information Systems">
-    <link href="javajam.css" rel="stylesheet">
+    <link rel="stylesheet" href="javajam.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
-
     <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
 </head>
 
 <body>
@@ -30,38 +31,39 @@
         </header>
         <nav>
             <ul>
-                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="music.html">Music</a></li>
                 <li><a href="jobs.html">Jobs</a></li>
-                <li><a href="gear.html">Gear</a></li>
+                <li><a class="current" href="gear.html">Gear</a></li>
             </ul>
         </nav>
-
         <main>
-            <div id="homehero">
+            <div id="herocouch">
             </div>
-            <h2>Follow the Winding Road to JavaJam</h2>
-            <p>We're a little out of the way, but take a drive in the country down Garrett Bay Road to JavaJam today!
-                Indulge in our locally roasted free-trade coffee and home-made pastries. You'll feel right at home at
-                JavaJam!</p>
-            <p>Friendly and eclectic --- JavaJam Coffee Bar is the perfect place to take a break, enjoy a refreshing
-                beverage, and have a snack or light meal.</p>
-            <h3>JavaJam Coffee Bar features:</h3>
-            <ul>
-                <li>Specialty Coffee and Organic Tea</li>
-                <li>Bagels, Muffins, and Gluten-free Pastries</li>
-                <li>Organic Salads</li>
-                <li>Music and Poetry Readings</li>
-                <li>Open Mic Night</li>
-            </ul>
-            <div id="contact">
-                12010 Garrett Bay Road<br>
-                Ellison Bay, WI 54210<br>
-                <a id="mobile" href="tel:888-555-5555">888-555-5555</a><span id="desktop">888-555-5555</span><br><br>
+            <h2>JavaJam Gear</h2>
+            <p>JavaJam <a id="gear" href="#">gear</a> not only looks good, it's good to your wallet, too.</p>
+            <p>Get a 10% disount when you wear a JavaJam shirt or bring in your JavaJam mug!</p>
+            <div id="flow">
+                <div class="item">
+                    <img src="images/javashirt.jpg" alt="JavaJam Shirt" width="161" height="150">
+                    <h3>JavaJam Shirt</h3>
+                    <p>JavaJam shirts are comfortable to wear to school and around town. 100% cotton. XL only. $14.95
+                    </p>
+                    <form method="get" action="https://webdevbasics.net/cart.html">
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </div>
+                <div class="item">
+                    <img src="images/javamug.jpg" alt="JavaJam Mug" width="161" height="150">
+                    <h3>JavaJam Mug</h3>
+                    <p>JavaJam mugs carry a full load of caffeine (12 oz.) to jump-start your morning. $9.95</p>
+                    <form method="get" action="https://webdevbasics.net/cart.html">
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </div>
             </div>
         </main>
-        <br>
         <footer>
             Copyright &copy; 2022 JavaJam Coffee Bar<br>
             <a href="mailto:morgan@thacker.com">
