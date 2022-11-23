@@ -102,6 +102,12 @@ nav li {
     border-bottom: 1px solid #FEF6C2;
 }
 
+nav li a {
+    display: flex;
+    flex-direction: column;
+    padding: .5em 1em;
+}
+
 main {
     padding: 0em 0em 2em 0em;
     background-color: #FEF6C2;
