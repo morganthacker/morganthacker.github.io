@@ -985,7 +985,7 @@ a:hover {
   }
   
   .portfolio-details .portfolio-description p {
-    padding: 0;
+    padding-bottom: 5em ;
     text-align: center;
   }
 
