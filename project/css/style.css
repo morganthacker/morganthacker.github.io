@@ -640,7 +640,7 @@ a:hover {
     }
   
     .navbar ul {
-      display: none;
+      display: block;
     }
   }
   
