@@ -641,7 +641,7 @@ a:hover {
     }
   
     .navbar ul {
-      display: block;
+      display: inline-flex;
     }
   }
   
