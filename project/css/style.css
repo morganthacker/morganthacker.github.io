@@ -501,7 +501,7 @@ a:hover {
     padding: 0;
     display: flex;
     list-style: none;
-    align-items: right;
+    align-items:center;
   }
   
   .navbar li {
