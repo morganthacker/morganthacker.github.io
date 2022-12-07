@@ -219,6 +219,10 @@ a:hover {
 .socials ul li {
     display: inline-block;
 }
+
+.socials i {
+  color:#b89473;
+}
   
 .socials .ico-circle {
     height: 40px;
