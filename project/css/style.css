@@ -86,11 +86,18 @@ a:hover {
     background-position: center center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     .bg-image {
         background-attachment: scroll;
     }
 }
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
 
 .overlay-mf {
     background-color: #a37c57;
@@ -464,7 +471,7 @@ a:hover {
 #header {
     transition: all 0.5s;
     z-index: 997;
-    padding: 20px 0;
+    padding: 0;
   }
   
   #header .logo {
@@ -476,11 +483,13 @@ a:hover {
   }
   
   #header .logo a {
-    color: rgb(224, 159, 105);
+    color: rgb(253, 253, 252);
   }
   
   #header .logo img {
-    max-height: 150px;
+    max-height: 160px;
+    color: #fff;
+  
   }
   
   #header.header-scrolled {
